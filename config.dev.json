@@ -36,10 +36,7 @@
     "hideNotiMessage": true
   },
   "adminBot": [
-    "100049442797056",
-    "100058700072538",
-    "100010238885450"
-  ],
+    "61556291038049"],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
