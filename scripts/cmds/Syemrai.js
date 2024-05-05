@@ -2,9 +2,9 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: "asmit3",
+    name: "symer",
     version: "1.0",
-    author: "asmit",
+    author: "Kyle",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -28,7 +28,7 @@ module.exports = {
 
     const userMessage = event.body;
 
-    api.sendMessage("🗨️ | asmit AI is thinking...", event.threadID, event.messageID);
+    api.sendMessage("🗨️ | Symer AI is thinking...", event.threadID, event.messageID);
 
     try {
       // Replace the API URL with the correct endpoint
