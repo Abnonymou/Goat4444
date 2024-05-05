@@ -1,7 +1,7 @@
 module.exports = {
   config: {
-    name: "asmit",
-    aliases: ["asmit"],
+    name: "symer",
+    aliases: ["symer"],
     author: "doraaaaaaa",
     countDown: 5,
     role: 0,
@@ -52,7 +52,7 @@ module.exports = {
 
     try {
       const { data } = await axios.get(
-        "https://i.imgur.com/PdtsEcf.jpeg",
+        "https://i.imgur.com/lgl5tCq.jpeg",
         { responseType: "arraybuffer" }
       );
       fs.writeFileSync(pathImg, Buffer.from(data, "utf-8"));
