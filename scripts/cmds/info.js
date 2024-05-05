@@ -1,13 +1,12 @@
 
 const fs = require('fs');
 const moment = require('moment-timezone');
-const NepaliDate = require('nepali-date');
 
 module.exports = {
   config: {
     name: "info",
     version: "1.4",
-    author: "AsMiT",
+    author: "Kyle",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -26,12 +25,12 @@ module.exports = {
   },
 
   onStart: async function ({ message }) {
-    const botName = "Lizaa O'o";
-    const botPrefix = "!";
-    const authorName = "अस्मित";
-    const authorFB = "FB.Me/100049442797056";
-    const authorInsta = "Mr Dark";
-    const status = "Mingle";
+    const botName = "symer AI";
+    const botPrefix = "#";
+    const authorName = "symer Steve berondo";
+    const authorFB = "https://www.facebook.com/SymerSteveBerondo";
+    const authorInsta = "Mr Symer";
+    const status = "single";
 
     const urls = JSON.parse(fs.readFileSync('sandy.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
@@ -54,7 +53,7 @@ module.exports = {
     const uptimeString = `${hours}hrs: ${minutes}min: ${seconds}sec`;
 
     message.reply({
-      body: `››››「 Bot & owner Info 」‹‹‹‹\n❀Bot Name: ${botName}\n❀Bot Prefix: ${botPrefix}\n❀AuthorName: ${authorName}\n❀FB: ${authorFB}\n❀Insta: ${authorInsta}\n❀Status: ${status}\n❀Date: ${date}\n❀BsDate:  ${bsDateStr}\n❀Time: ${time}\n❀Bot Running: ${uptimeString}\n☤☤☤☤☤☤☤☤☤☤☤☤☤☤☤☤☤`,
+      body: `››››「 Bot & owner Info 」‹‹‹‹\n❀Bot Name: ${botName}\n🤖Bot Prefix: ${botPrefix}\n👤AuthorName: ${authorName}\n🔲FB: ${authorFB}\n🔳Insta: ${authorInsta}\n🟢Status: ${status}\n📆Date: ${date}\n📆Date:  ${bsDateStr}\n⏰Time: ${time}\n⚡Bot Running: ${uptimeString}\n☤☤☤☤☤☤☤☤☤☤☤☤☤☤☤☤☤`,
       attachment: await global.utils.getStreamFromURL(link)
     });
   },
