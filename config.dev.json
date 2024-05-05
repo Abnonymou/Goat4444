@@ -36,14 +36,14 @@
     "hideNotiMessage": true
   },
   "adminBot": [
-    "61556797413007"],
+    "100080437087855","100052395031835"],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Lizaa😙💋",
-  "prefix": ".",
+  "nickNameBot": "[ # ] ◉⏤͟͟͞͞𝐒𝐘𝐌𝐄𝐑 𝐀𝐈",
+  "prefix": "#",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
