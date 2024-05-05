@@ -27,12 +27,12 @@ module.exports = {
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: 'Asmit Adhikari',
+          name: 'symer Steve Berondo',
           gender: 'male',
           hobby: 'doing sex',
           relationship: 'Mingle',
-          facebookLink: 'www.facebook.com',
-          bio: '𝑯𝒂𝒕𝒆𝒓𝒔 𝒂𝒓𝒆 𝒎𝒚 𝒎𝒐𝒕𝒊𝒗𝒂𝒕𝒐𝒓𝒔'
+          facebookLink: 'https://www.facebook.com/SymerSteveBerondo',
+          bio: 'dont panic its organic'
         };
 
         const videoUrl = 'https://drive.google.com/uc?export=download&id=1uFLIV0C-yqArk-Ne-_4HfWa-KtRw4S7d';
